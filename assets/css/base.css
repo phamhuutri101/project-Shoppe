@@ -7,3 +7,23 @@
 * {
     box-sizing: inherit;
 }
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%; /* dung de tao dang cach giua 2 ben tren header + tu dong can giua */
+    margin: 0 auto;
+}
+.gird__full-width{
+    width: 100%;
+}
+
+.gird__row{
+    display: flex;
+    flex-wrap: wrap; /* tong do dai vuot qua row thi nhay xuong duoi*/
+}
